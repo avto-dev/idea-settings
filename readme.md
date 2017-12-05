@@ -19,4 +19,25 @@ PhpStorm не позволяет легко "шарить" настройки ID
 
 Если найдете корректный *(и реально рабочий)* метод автоматищации данного процесса - пожалуйста, создайте issue с описанием в данной репозитории.
 
+## Темы для IDE
+
+Используемые темы находятся в директории `./themes` данного репозитория.
+
+## Spell-checking
+
+В данном репозитории так же хранится словарь для проверки правописания русского языка. Для его установки достаточно выполнить:
+
+```shell
+wget -O /tmp/russian.dic.zip https://github.com/avto-dev/idea-settings/raw/master/dicts/russian.dic.zip \
+  && sudo unzip -d /usr/share/dict /tmp/russian.dic.zip \
+  && sudo chmod 644 /usr/share/dict/russian.dic \
+  && rm /tmp/russian.dic.zip
+```
+
+И в настройках IDE выполнить:
+
+ * Нажать **File | Settings...**
+ * Перейти **Editor > Spelling > Dictionaries**
+ * В области **Custom Dictionaries Folder** нажать **+** и ввести путь `/usr/share/dict`, если он отсутствует в списке путей ниже
+
 [download_jar]: https://github.com/avto-dev/idea-settings/raw/master/idea-settings.jar
