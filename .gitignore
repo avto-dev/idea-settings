@@ -1,1 +1,9 @@
+# IDEs
+/nbproject
+/.idea
+
+# Temp dirs & trash
+/temp
+/tmp
+
 !/idea-settings.jar

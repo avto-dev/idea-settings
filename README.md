@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="logo" src="https://habrastorage.org/webt/nx/dq/jw/nxdqjwei9l_i_aa49ipmtjy42lw.png" width="80" height="80" />
+  <img alt="logo" src="https://hsto.org/webt/nx/dq/jw/nxdqjwei9l_i_aa49ipmtjy42lw.png" width="80" height="80" />
 </p>
 
 # Вступление
